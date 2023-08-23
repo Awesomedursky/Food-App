@@ -6,7 +6,7 @@ import SectionPageOne from './SectionPageOne';
 const Home = () => {
   return (
     <>
-      <div className='flex flex-col p-8 w-full h-screen gap-5'>
+      <div className='flex flex-col p-2 sm:p-3 md:p-4 lg:p-5 xl:p-6 2xl:p-8 w-full justify-between'>
         <Header />
         <div>
           <SectionPageOne />
